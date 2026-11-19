@@ -1,0 +1,326 @@
+{
+  "model": "sshleifer/tiny-gpt2",
+  "revision": null,
+  "seed": 42,
+  "edit_scale": 0.02,
+  "dev_records": [
+    {
+      "dev_prompt": "Förklara kortfattat hur en kommunal budget fungerar i Sverige.",
+      "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+      "drift_score": 0.0
+    },
+    {
+      "dev_prompt": "Skriv tre punkter om varför källkritik är viktig i nyhetsrapportering.",
+      "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+      "drift_score": 0.0
+    },
+    {
+      "dev_prompt": "Vad är skillnaden mellan förnybar energi och kärnkraft? Svara på svenska.",
+      "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+      "drift_score": 0.0
+    },
+    {
+      "dev_prompt": "Hur kan en medborgare överklaga ett myndighetsbeslut på svenska?",
+      "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+      "drift_score": 0.0
+    }
+  ],
+  "evaluations": [
+    {
+      "condition": "baseline_unchanged",
+      "mean_english_drift_score": 0.0,
+      "mean_bigram_repetition_rate": 0.9744,
+      "non_empty_rate": 1.0,
+      "swedish_qa_accuracy": 0.0,
+      "drift_examples": [
+        {
+          "prompt": "Förklara hur en API-gateway fungerar i ett distribuerat system. Svara på svenska.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Vilka steg ingår i en kodgranskning innan en pull request slås samman?",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Hur fungerar versionshantering med Git för ett team på fem utvecklare?",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Förklara skillnaden mellan relationella databaser och nyckel-värde-databaser på svenska.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Vad bör en myndighet tänka på när den upphandlar digitala tjänster?",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Skriv en kort sammanfattning på svenska om hur offentlig upphandling fungerar.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        }
+      ],
+      "qa_examples": [
+        {
+          "question": "Vilken stad är huvudstad i Sverige? Svara med ett ord.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "matched_expected": false
+        },
+        {
+          "question": "Hur många månader har ett kalenderår? Svara med ett ord eller en siffra.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "matched_expected": false
+        },
+        {
+          "question": "Vilket språk talas officiellt i Sverige? Svara på svenska.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "matched_expected": false
+        },
+        {
+          "question": "Vad heter Sveriges parlament? Svara med ett ord.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "matched_expected": false
+        }
+      ]
+    },
+    {
+      "condition": "inference_swedish_prompt",
+      "mean_english_drift_score": 0.0,
+      "mean_bigram_repetition_rate": 0.9744,
+      "non_empty_rate": 1.0,
+      "swedish_qa_accuracy": 0.0,
+      "drift_examples": [
+        {
+          "prompt": "Förklara hur en API-gateway fungerar i ett distribuerat system. Svara på svenska.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Vilka steg ingår i en kodgranskning innan en pull request slås samman?",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Hur fungerar versionshantering med Git för ett team på fem utvecklare?",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Förklara skillnaden mellan relationella databaser och nyckel-värde-databaser på svenska.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Vad bör en myndighet tänka på när den upphandlar digitala tjänster?",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Skriv en kort sammanfattning på svenska om hur offentlig upphandling fungerar.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        }
+      ],
+      "qa_examples": [
+        {
+          "question": "Vilken stad är huvudstad i Sverige? Svara med ett ord.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "matched_expected": false
+        },
+        {
+          "question": "Hur många månader har ett kalenderår? Svara med ett ord eller en siffra.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "matched_expected": false
+        },
+        {
+          "question": "Vilket språk talas officiellt i Sverige? Svara på svenska.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "matched_expected": false
+        },
+        {
+          "question": "Vad heter Sveriges parlament? Svara med ett ord.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "matched_expected": false
+        }
+      ]
+    },
+    {
+      "condition": "targeted_weight_edit",
+      "mean_english_drift_score": 0.0,
+      "mean_bigram_repetition_rate": 0.9744,
+      "non_empty_rate": 1.0,
+      "swedish_qa_accuracy": 0.0,
+      "drift_examples": [
+        {
+          "prompt": "Förklara hur en API-gateway fungerar i ett distribuerat system. Svara på svenska.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Vilka steg ingår i en kodgranskning innan en pull request slås samman?",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Hur fungerar versionshantering med Git för ett team på fem utvecklare?",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Förklara skillnaden mellan relationella databaser och nyckel-värde-databaser på svenska.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Vad bör en myndighet tänka på när den upphandlar digitala tjänster?",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Skriv en kort sammanfattning på svenska om hur offentlig upphandling fungerar.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        }
+      ],
+      "qa_examples": [
+        {
+          "question": "Vilken stad är huvudstad i Sverige? Svara med ett ord.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "matched_expected": false
+        },
+        {
+          "question": "Hur många månader har ett kalenderår? Svara med ett ord eller en siffra.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "matched_expected": false
+        },
+        {
+          "question": "Vilket språk talas officiellt i Sverige? Svara på svenska.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "matched_expected": false
+        },
+        {
+          "question": "Vad heter Sveriges parlament? Svara med ett ord.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "matched_expected": false
+        }
+      ],
+      "target_parameter": "transformer.h.0.mlp.c_proj.weight",
+      "edited_weights": 16
+    },
+    {
+      "condition": "random_untargeted_edit",
+      "mean_english_drift_score": 0.0,
+      "mean_bigram_repetition_rate": 0.9744,
+      "non_empty_rate": 1.0,
+      "swedish_qa_accuracy": 0.0,
+      "drift_examples": [
+        {
+          "prompt": "Förklara hur en API-gateway fungerar i ett distribuerat system. Svara på svenska.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Vilka steg ingår i en kodgranskning innan en pull request slås samman?",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Hur fungerar versionshantering med Git för ett team på fem utvecklare?",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Förklara skillnaden mellan relationella databaser och nyckel-värde-databaser på svenska.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Vad bör en myndighet tänka på när den upphandlar digitala tjänster?",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        },
+        {
+          "prompt": "Skriv en kort sammanfattning på svenska om hur offentlig upphandling fungerar.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "drift_score": 0.0,
+          "repetition_rate": 0.9744,
+          "non_empty": true
+        }
+      ],
+      "qa_examples": [
+        {
+          "question": "Vilken stad är huvudstad i Sverige? Svara med ett ord.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "matched_expected": false
+        },
+        {
+          "question": "Hur många månader har ett kalenderår? Svara med ett ord eller en siffra.",
+          "response": "stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs stairs",
+          "matched_expected": false
+        },
+        {
+          "question": "Vilket språk talas officiellt i Sverige? Svara på svenska.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "matched_expected": false
+        },
+        {
+          "question": "Vad heter Sveriges parlament? Svara med ett ord.",
+          "response": "factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors factors",
+          "matched_expected": false
+        }
+      ],
+      "control_parameter": "transformer.h.1.mlp.c_proj.weight",
+      "edited_weights": 16
+    }
+  ]
+}
